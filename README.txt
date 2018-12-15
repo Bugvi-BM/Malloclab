@@ -1,8 +1,3 @@
-We chose to submit several different solutions.
-To run a specific solution file, the filename has to be changed to "mm.c"
-If it is too much to give feedback to all solutions, we would prefer to get feedback
-on "mmSegregated". 
-
 We started out by implementing an implicit free list. For the implicit list implementation 
 we implemented 3 different find-fit policies and removed the footer in allocated blocks. 
 This solution can be found in "mmImplicit.c"
@@ -15,7 +10,7 @@ Next, we changed the LIFO insertion policy on the explicit list to address-based
 This solution can be found in "mmExplicitAddress.c"
 
 Then we implemented a segregated free list with LIFO insertion policy. 
-This solution can be found in "mmSegregated.c"
+This solution can be found in "mm.c"
 
 Finally, we tried to maximize utilisation for the realloc traces by changing 
 the "place" method. We think that this change only makes sense for the very specific problem domain
